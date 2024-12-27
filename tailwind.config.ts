@@ -1,3 +1,4 @@
+// @ts-expect-error the types package does not exist
 import tailwindMotion from 'tailwindcss-motion';
 
 const config = {
