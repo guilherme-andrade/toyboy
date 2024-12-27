@@ -3,8 +3,8 @@ export type Artwork = {
   description: string;
   year: number;
   coverPhoto: {
-    file: {
-      fields: {
+    fields: {
+      file: {
         url: string;
       }
     };
