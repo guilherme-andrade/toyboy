@@ -6,7 +6,9 @@ import ArtworkCard from "@/components/Artwork";
 import { loadArtwork } from "@/content";
 import type { Artwork } from "@/types";
 
-const delays = {
+const delays: {
+  [key: number]: string;
+} = {
   0: "motion-delay-0",
   1: "motion-delay-[400ms]",
   2: "motion-delay-[600ms]",
